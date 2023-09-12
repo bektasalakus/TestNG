@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Istenen Classlari toplu calistirma">
+    
+    <test name="class calistirma">
+        
+        <classes>
+            <class name="tests.Day01.C03_DependsOnMethods"></class>
+            <class name="tests.Day02.C06_QDLoginTest"></class>
+            <class name="tests.Day03.C03_SoftAssertion"></class>
+        </classes>
+    </test>
+</suite>
